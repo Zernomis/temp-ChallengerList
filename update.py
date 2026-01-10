@@ -134,8 +134,11 @@ def get_next_archive_name():
     next_num = max(numbers) + 1 if numbers else 1
     return f"{current_year}_{next_num}"
 
+
 def archive_current_data(archive_name):
     """Archive all current data files into a folder"""
+    # Ensure the archives directory exists first
+    os.makedirs('data/archives', exist_ok=True)
     archive_dir = f'data/archives/{archive_name}'
     os.makedirs(archive_dir, exist_ok=True)
     
