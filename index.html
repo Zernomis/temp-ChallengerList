@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenger Tracker - All Regions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>League of Legends Challenger Tracker</h1>
+            <p class="subtitle">Tracking all players who have reached Challenger this season</p>
+            
+            <div class="region-selector">
+                <div class="selector-section">
+                    <label>Select Season:</label>
+                    <div id="seasonButtons" class="button-grid season-grid"></div>
+                </div>
+                
+                <div class="selector-section">
+                    <label>Select Region:</label>
+                    <div id="regionButtons" class="button-grid region-grid"></div>
+                </div>
+                
+                <div class="last-update">Last updated: <span id="lastUpdate">Loading...</span></div>
+            </div>
+        </header>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="totalPlayers">-</div>
+                <div class="stat-label">Total Challengers (All Time)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="currentPlayers">-</div>
+                <div class="stat-label">Current Challengers</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avgDays">-</div>
+                <div class="stat-label">Avg. Days in Challenger</div>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search by summoner name or tag...">
+        </div>
+
+        <div class="table-container">
+            <table id="playerTable">
+                <thead>
+                    <tr>
+                        <th data-sort="rank" class="sortable">#</th>
+                        <th data-sort="summonerName" class="sortable">Name</th>
+                        <th data-sort="daysInChallenger" class="sortable">
+                            Days (Streak)
+                            <span class="tooltip">ⓘ
+                                <span class="tooltiptext">Total days in Challenger this season. Active streak shown in parentheses. 🔥 appears after 10+ consecutive days (🔥🔥 at 50+, 🔥🔥🔥 at 100+).</span>
+                            </span>
+                        </th>
+                        <th data-sort="avgRank" class="sortable">
+                            Avg (F)
+                            <span class="tooltip">ⓘ
+                                <span class="tooltiptext">Average rank calculated only when ladder has 15%+ of max slots (45+ players) to avoid a permanent rank 1 by excluding early season data.</span>
+                            </span>
+                        </th>
+                        <th data-sort="avgRankAll" class="sortable">
+                            Avg (All)
+                            <span class="tooltip">ⓘ
+                                <span class="tooltiptext">Average rank using all available data, including early season.</span>
+                            </span>
+                        </th>
+                        <th data-sort="currentRank" class="sortable">Rank</th>
+                        <th data-sort="leaguePoints" class="sortable">LP</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody id="playerTableBody">
+                    <tr>
+                        <td colspan="8" class="loading">Loading player data...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
