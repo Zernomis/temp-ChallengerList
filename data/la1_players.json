@@ -6,21 +6,22 @@
       "puuid": "8CMvstsISOouETqY0Wk_TpOIK6XljPSln6XhLZ13rmBAOuvqaoknmTOnrfMhBlvnJ7Gkta312Yu-2Q",
       "summonerName": "xip",
       "tagLine": "valen",
-      "leaguePoints": 810,
-      "wins": 44,
-      "losses": 12,
+      "leaguePoints": 950,
+      "wins": 49,
+      "losses": 13,
       "firstSeenDate": "2026-01-10T14:55:56.536485+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
       "currentRank": 1,
       "avgRank": null,
-      "avgRankAll": 1,
+      "avgRankAll": 1.0,
       "rankHistory": [
+        1,
         1
       ],
       "isActive": true,
       "rank": 1
     }
   ],
-  "lastUpdate": "2026-01-10T14:55:56.536485+00:00"
+  "lastUpdate": "2026-01-11T02:05:08.933309+00:00"
 }
