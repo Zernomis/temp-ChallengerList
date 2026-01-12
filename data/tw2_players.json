@@ -10,17 +10,18 @@
       "wins": 35,
       "losses": 9,
       "firstSeenDate": "2026-01-11T02:04:48.026706+00:00",
-      "daysInChallenger": 1,
-      "currentStreak": 1,
+      "daysInChallenger": 2,
+      "currentStreak": 2,
       "currentRank": 1,
       "avgRank": null,
-      "avgRankAll": 1,
+      "avgRankAll": 1.0,
       "rankHistory": [
+        1,
         1
       ],
       "isActive": true,
       "rank": 1
     }
   ],
-  "lastUpdate": "2026-01-11T02:04:48.026706+00:00"
+  "lastUpdate": "2026-01-12T02:01:54.297390+00:00"
 }

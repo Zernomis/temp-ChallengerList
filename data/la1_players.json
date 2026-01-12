@@ -6,22 +6,42 @@
       "puuid": "8CMvstsISOouETqY0Wk_TpOIK6XljPSln6XhLZ13rmBAOuvqaoknmTOnrfMhBlvnJ7Gkta312Yu-2Q",
       "summonerName": "xip",
       "tagLine": "valen",
-      "leaguePoints": 950,
-      "wins": 49,
-      "losses": 13,
+      "leaguePoints": 1228,
+      "wins": 60,
+      "losses": 18,
       "firstSeenDate": "2026-01-10T14:55:56.536485+00:00",
-      "daysInChallenger": 2,
-      "currentStreak": 2,
+      "daysInChallenger": 3,
+      "currentStreak": 3,
       "currentRank": 1,
       "avgRank": null,
       "avgRankAll": 1.0,
       "rankHistory": [
         1,
+        1,
         1
       ],
       "isActive": true,
       "rank": 1
+    },
+    {
+      "puuid": "Oax4YFLv4dJs0oc9TKt4YE94hNb_TVrcrUluWA1wPTjRX87I25MFnOiK46lotvudb4pFH3oJUqnNIg",
+      "summonerName": "like a record",
+      "tagLine": "baby",
+      "leaguePoints": 745,
+      "wins": 46,
+      "losses": 15,
+      "firstSeenDate": "2026-01-12T02:03:51.750081+00:00",
+      "daysInChallenger": 1,
+      "currentStreak": 1,
+      "currentRank": 2,
+      "avgRank": null,
+      "avgRankAll": 2,
+      "rankHistory": [
+        2
+      ],
+      "isActive": true,
+      "rank": 2
     }
   ],
-  "lastUpdate": "2026-01-11T02:05:08.933309+00:00"
+  "lastUpdate": "2026-01-12T02:03:51.750081+00:00"
 }
